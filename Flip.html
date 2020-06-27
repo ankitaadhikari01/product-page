@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>My Own Flipkart</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body class=" bk_background">
+	<nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+		<h3 class="navbar-brand text-light">Flipkart</h3>
+  		<div class="input-group md-form form-sm form-2 pl-0">
+		  <input class="form-control my-0 py-1 red-border" type="text" placeholder="Search" aria-label="Search">
+			<div class="input-group-append">
+			    <span class="input-group-text red lighten-3" id="basic-text1">
+			    	<i class="fas fa-search text-grey" aria-hidden="true"></i>
+			    </span>
+	 		</div>
+ 		</div>
+    	<div class="collapse navbar-collapse">
+	    	<ul class="navbar-nav mr-auto">
+	      		<li class="nav-item active">
+	        		<a class="nav-link" href="#">Login</a>
+	      		</li>
+	      		<li class="nav-item">
+	       		 <a class="nav-link" href="#">Cart</a>
+	      		</li>
+	    	</ul>
+	  	</div>
+	</nav>
+	<div class="container mt-2">
+		<div class="row">
+			<div class="col-md-3">
+				<div class="card">
+					<div class="card-body">
+						<h4 class="card-title">Filters</h4>
+						<hr style="height:2px;border-width:0;color:gray;background-color:gray">
+						<form>
+							<label><b>STATUS</b></label><br>
+							<input type="radio" name="z"> All<br>
+							<input type="radio" name="z"> Upcoming<br>
+							<input type="radio" name="z"> Available<br>
+							<hr>
+
+							<label><b>PRICE RANGE (1K TO 10L)</b></label><br>
+							<input type="range" name="" min="10000" max="100000"><br>
+							<hr>
+
+							<label><b>RAM</b></label><br>
+							<input type="checkbox" name=""> 6 GB & Above<br>
+							<input type="checkbox" name=""> 4 GB<br>
+							<input type="checkbox" name=""> 3 GB<br>
+							<input type="checkbox" name=""> 2 GB<br>
+							<input type="checkbox" name=""> 1 GB<br>
+							<input type="checkbox" name=""> 512 GB - 1 GB<br>
+							<input type="checkbox" name=""> Less then 512 GB<br>
+							<hr>
+
+							<label><b>BRAND</b></label><br>
+							<div class="input-group md-form form-sm form-1 pl-0">
+							  <div class="input-group-prepend">
+							    <span class="input-group-text purple lighten-3" id="basic-text1"><i class="fas fa-search text-black" aria-hidden="true"></i></span>
+							  </div>
+							  <input class="form-control my-0 py-1" type="text" placeholder="Search" aria-label="Search">
+							</div>
+							<br>
+							<input type="radio" name="x"> POCO<br>
+							<input type="radio" name="x"> Realme<br>
+							<input type="radio" name="x"> Infinix<br>
+							<input type="radio" name="x"> Motorola<br>
+							<input type="radio" name="x"> Samsung<br>
+							<input type="radio" name="x"> Mi<br>
+							<hr>
+
+							<label><b>CUSTOMER RATINGS</b></label><br>
+							<input type="radio" name="y"> 4 <i class="fa fa-star"></i> & above<br>
+							<input type="radio" name="y"> 3 <i class="fa fa-star"></i> & above<br>
+							<input type="radio" name="y"> 2 <i class="fa fa-star"></i> & above<br>
+							<input type="radio" name="y"> 1 <i class="fa fa-star"></i> & above<br>
+							<hr>
+
+							<label><b>INTERNAL STORAGE</b></label><br>
+							<select>
+								<optgroup>
+									<option> 256 GB & Above</option>
+									<option> 128 - 255.9 GB</option>
+									<option> 64 - 127.9 GB</option>
+									<option> 32 - 63.9 GB</option>
+									<option> 16 - 31.9 GB</option>
+									<option> 8 - 15.9 GB</option>
+									<option> 4 - 7.9 GB</option>
+									<option> 2 - 3.9 GB</option>
+								</optgroup>
+							</select>
+							<hr>
+
+							<label><b>OPERATING SYSTEM</b></label><br>
+							<select>
+								<option> Android</option>
+								<option> Blackberry</option>
+								<option> Brew</option>
+								<option> iOS</option>
+								<option> KaiOS</option>
+								<option> Linux</option>
+								<option> Sailfish</option>
+								<option> Symbian</option>		
+							</select>
+							<br>
+							<hr>
+
+							<label><b>BATTERY CAPACITY</b></label>
+							<div class="input-group md-form form-sm form-1 pl-0">
+							  <div class="input-group-prepend">
+							    <span class="input-group-text purple lighten-3" id="basic-text1"><i class="fas fa-search text-black" aria-hidden="true"></i></span>
+							  </div>
+							  <input class="form-control my-0 py-1" type="text" placeholder="Search" aria-label="Search">
+							</div>
+							<br>
+							<input type="radio" name="x"> 1000 - 1999 mAh<br>
+							<input type="radio" name="x"> 2000 - 2999 mAh<br>
+							<input type="radio" name="x"> 3000 - 3999 mAh<br>
+							<input type="radio" name="x"> 4000 - 4999 mAh<br>
+							<input type="radio" name="x"> 5000 mAh & Above<br>
+							<input type="radio" name="x"> Less than 1000 mAh<br>
+							<hr>
+							<input type="submit" name="" class="bg-primary" value="Sumit">
+					</div>
+				</div>
+			</div>
+			<div class="col-md-6">
+				<div class="card">
+					<div class="card-body">
+						<img src="a.jpg" class="card-img-top">
+						<h4 class="card-title">Samsung Galaxy</h4>
+						<p class="card-text"><b>Samsung is a South Korean multinational conglomerate headquartered in Samsung Town, Seoul. It comprises numerous affiliated businesses, most of them united under the Samsung brand, and is the largest South Korean chaebol. Samsung was founded by Lee Byung-chul in 1938 as a trading company.Samsung was founded by Lee Byung-chul in 1938 as a trading company. Over the next three decades, the group diversified into areas including food processing, textiles, insurance, securities, and retail. Samsung entered the electronics industry in the late 1960s and the construction and shipbuilding industries in the mid-1970s; these areas would drive its subsequent growth. Following Lee's death in 1987, Samsung was separated into four business groups – Samsung Group, Shinsegae Group, CJ Group and Hansol Group. Since 1990, Samsung has increasingly globalised its activities and electronics; in particular, its mobile phones and semiconductors have become its most important source of income. As of 2017, Samsung has the 6th highest global brand value.</b></p>
+						<span class="fa fa-star checked"></span>
+						<span class="fa fa-star checked"></span>
+						<span class="fa fa-star checked"></span>
+						<span class="fa fa-star"></span>
+						<span class="fa fa-star"></span>
+						<p><b><span>&#8377;</span>18,000</b></p>
+						<a href="#" class="btn bg_background btn-block text-light bg-primary" data-toggle="modal" data-target="#exampleModal1">Veiw Details</a>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-3" style=" width:300px; height: 600px; overflow-y: scroll;">
+				<a class="twitter-timeline" href="https://twitter.com/Flipkart?ref_src=twsrc%5Etfw">Tweets by Flipkart</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
